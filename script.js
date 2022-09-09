@@ -20,24 +20,24 @@ function perdeCor(id){
 
 function GanhaNome(id){
     let h2 = document.getElementById(id)
-    h2.style.transition = ("0.5s")
+    h2.style.transition = ("0.6s")
     h2.style.marginTop = ("0px")
 
     let nome =  document.getElementsByClassName('titu-zap')
-    nome[id].style.transition = ("0.5s")
+    nome[id].style.transition = ("0.6s")
     nome[id].style.marginTop = ("9px")
-    nome[id].style.visibility = ("visible")
+    nome[id].style.opacity = ("100%")
 }
 
 function PerdeNome(id){
     let h2 = document.getElementById(id)
-    h2.style.transition = ("0.5s")
+    h2.style.transition = ("0.6s")
     h2.style.marginTop = ("20px")
 
     let nome =  document.getElementsByClassName('titu-zap')
     console.log(nome[id]);
-    nome[id].style.transition = ("0.5s")
+    nome[id].style.transition = ("0.6s")
     nome[id].style.marginTop = ("0px")
-    nome[id].style.visibility = ("hidden")
+    nome[id].style.opacity = ("0%")
 }
 
