@@ -128,7 +128,7 @@
 }
 
 .titu-zap {
-    visibility: hidden;
+    opacity: 0%;
     margin-top: 0px;
     font-size: 25pt;
     color: white;
