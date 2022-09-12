@@ -422,6 +422,11 @@
     margin-top: 300px;
 }
 
+.modal-body{
+    padding: 0 !important;
+}
+
+
 .cabecalho img {
     position: relative;
     left: -50px;
@@ -482,6 +487,8 @@
     height: 60vh;
     max-height: 300px;
 }
+
+
 
 
 
@@ -551,7 +558,7 @@
         height: 100%;
     }
 
-    
+   
 
     .servicos  {
         background: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 105, 0.521)), url(./Img/Caminhoes/Servicos/banner-servicos.png);
