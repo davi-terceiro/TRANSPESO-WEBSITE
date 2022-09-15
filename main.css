@@ -156,6 +156,15 @@
     text-shadow: #000000;
 }
 
+#foto-guindaste{
+    margin-top: 40px;
+}
+
+.hidden{
+    opacity: 0%;
+    
+}
+
 .logosclientes {
     width: 180px;
     padding: 10px;
